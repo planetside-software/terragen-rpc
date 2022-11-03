@@ -1,15 +1,8 @@
 Downloads
 =========
 
-Python module terragen_rpc
---------------------------
+We recommend you clone the entire terragen-rpc repository from GitHub. The 'python' subdirectory contains the Python module 'terragen_rpc' and some unit tests. The repository also contains the source files that were used to generate this documentation.
 
-`terragen_rpc-0.9.1.zip <https:///planetside.co.uk/downloads/terragensdk/terragen_rpc-0.9.1.zip>`_
+`Terragen RPC on GitHub <https://github.com/planetside-software/terragen-rpc>`_
 
-`terragen_rpc-0.9.0.zip <https:///planetside.co.uk/downloads/terragensdk/terragen_rpc-0.9.0.zip>`_
-
-`terragen_rpc-0.8.0.zip <https:///planetside.co.uk/downloads/terragensdk/terragen_rpc-0.8.0.zip>`_
-
-`terragen_rpc-0.7.0.zip <https:///planetside.co.uk/downloads/terragensdk/terragen_rpc-0.7.0.zip>`_
-
-`terragen_rpc-0.6.0.zip <https:///planetside.co.uk/downloads/terragensdk/terragen_rpc-0.6.0.zip>`_
+If you prefer to download a zip file, you can also do that from the GitHub page above.
