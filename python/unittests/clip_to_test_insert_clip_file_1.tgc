@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<terragen_clip>
+	<non_node>
+		<clip_category
+			type = "Terrain"
+		></clip_category>
+		<clip_input_connection
+			node = "INSERTED FROM CLIP FILE"
+			param = "input_node"
+		></clip_input_connection>
+		<clip_output_connection
+			node = "INSERTED FROM CLIP FILE"
+			index = "0"
+		></clip_output_connection>
+		<library_connection_tips/>
+	</non_node>
+	<alpine_fractal_shader_v2
+		name = "INSERTED FROM CLIP FILE"
+		gui_use_node_pos = "1"
+		gui_node_pos = "-920 620 0"
+		gui_group = "Terrain"
+		enable = "1"
+		input_node = "/Fractal warp shader 01"
+		gui_use_preview_patch_size = "0"
+		gui_preview_patch_size = "1000 1000"
+		seed = "51492"
+		feature_scale = "4000"
+		lead-in_octaves = "0"
+		lead-in_scale = "4000"
+		smallest_scale = "10"
+		noise_octaves = "6"
+		apply_displacement = "1"
+		displacement_amplitude = "2000"
+		displacement_offset = "0"
+		displacement_roughness = "1"
+		scale_step = "3"
+		stretch_factor = "3"
+		late_deposition = "0.06125"
+		early_deposition = "0.25"
+		early_deposition_rate = "2"
+		warp_amount = "0.25"
+		blend_by_shader = "0"
+		blending_shader = ""
+		invert_blendshader = "0"
+	></alpine_fractal_shader_v2>
+</terragen_clip>
