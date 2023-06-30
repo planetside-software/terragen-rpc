@@ -39,25 +39,25 @@ Example:
         root = tg.root()
         # etc...
 		
-    except ConnectionError:
+    except ConnectionError as e:
         # A built-in Python exception raised by the socket.
         # This probably means that Terragen isn't running or
         # there is a misconfiguration in Terragen or this client.
-        print("Terragen RPC connection error")
+        print("Terragen RPC connection error: " + str(e))
         # Extra handling here...
         # ...
-    except TimeoutError:
+    except TimeoutError as e:
         # A built-in Python exception raised either by the socket
         # or by this module when a socket timeout occurs.
         # This could mean that the current instance of Terragen failed
         # to respond or that a previous instance has crashed without
         # properly closing the socket.
-        print("Terragen RPC timeout error")
+        print("Terragen RPC timeout error: " + str(e))
         # Extra handling here...
         # ...
-    except tg.ReplyError:
+    except tg.ReplyError as e:
         # The server responded, but the data it returned could not be parsed.
-        print("Terragen RPC server reply error")
+        print("Terragen RPC server reply error: " + str(e))
         # Extra handling here...
         # ...
     except tg.ApiError:
