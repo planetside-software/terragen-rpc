@@ -5,7 +5,7 @@ The terragen_rpc module provides a Python API for making remote procedure calls 
 
 Example usage:
 
-.. literalinclude:: ../../python/rpc_examples.py
+.. literalinclude:: ../../python/examples/brief_example_for_doc_intro.py
 
 .. note::
 
