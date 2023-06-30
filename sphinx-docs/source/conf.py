@@ -41,11 +41,11 @@ sys.path.insert(0, os.path.abspath('../../python'))
 # -- Project information -----------------------------------------------------
 
 project = 'Terragen RPC'
-copyright = '2022, Matt Fairclough, Planetside Software'
+copyright = '2023, Matt Fairclough, Planetside Software'
 author = 'Matt Fairclough, Planetside Software'
 
 # The full version, including alpha/beta/rc tags
-release = '0.9.1'
+release = '0.9.2'
 
 
 # -- General configuration ---------------------------------------------------
