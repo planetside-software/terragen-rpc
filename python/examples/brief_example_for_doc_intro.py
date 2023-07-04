@@ -2,8 +2,8 @@ import terragen_rpc as tg
 
 # Print the nodes at the top level of the project
 
-root = tg.root()
-children = root.children()
+project = tg.root()
+children = project.children()
 for c in children:
     print(c.path())
 

@@ -1,4 +1,5 @@
 import terragen_rpc as tg
+import traceback
 
 try:
     # Print the nodes at the top level of the project
@@ -46,4 +47,7 @@ except tg.ApiError:
     # a version of the API that is incompatible with this particular call.
     # Exception subclasses include ApiMethodNotFound and ApiInvalidParams.
     print("Terragen RPC API error")
-    raise
+    # Extra handling here...
+    # Let's print something useful for debugging.
+    print(traceback.format_exc()) # requires import traceback
+    # The program continues running after this.
