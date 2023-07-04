@@ -26,7 +26,7 @@ if camera:
 else:
     print("Node not found")
 
-# Note: Exception handling was ommitted from this example for brevity.
+# Note: Exception handling was omitted from this example for brevity.
 # See other examples for exception handling.
 ```
 
