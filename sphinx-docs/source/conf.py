@@ -1,6 +1,6 @@
 # MIT License
 #
-# Copyright (c) 2022 Planetside Software
+# Copyright (c) 2023 Planetside Software
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -45,7 +45,7 @@ copyright = '2023, Matt Fairclough, Planetside Software'
 author = 'Matt Fairclough, Planetside Software'
 
 # The full version, including alpha/beta/rc tags
-release = '0.9.2'
+release = '0.9.3'
 
 
 # -- General configuration ---------------------------------------------------
