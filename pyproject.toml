@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+include = ["python/terragen_rpc"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["python/terragen_rpc"]
+
+[project]
+name = "terragen_rpc"
+version = "0.9.2"
+authors = [
+  { name="Planetside Software", email="support@planetside.co.uk" },
+]
+description = "A Python API for remote interaction with Terragen by Planetside Software."
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"GitHub" = "https://github.com/planetside-software/terragen-rpc"
+"Docs" = "https://planetside.co.uk/docs/terragen-rpc/"
