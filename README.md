@@ -4,7 +4,7 @@ Terragen RPC is a remote procedure call system for certain versions of Terragen 
 
 ## Install for Python
 
-```pip install terragen-rpc```
+```python -m pip install terragen-rpc```
 
 ## Documentation
 
